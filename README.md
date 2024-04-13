@@ -4,10 +4,10 @@ This repository contains the code acompanying my bachelors thesis. It contains t
 # Running Inference script
 
 ## Create environment and install dependencies
-To run the inference script on a DICOM scan create a virtual environment and install the requirements in requirements.txt. 
+To run the inference script on a DICOM scan create a virtual environment and install the requirements in requirements.txt
 
 ## Train your model or download pretrained
-You can download the pretrained model weights from here: [Download pretrained weights](https://drive.google.com/file/d/14PvBIE4N53O7fyAwLrcyNabf8i94iqwT/view?usp=sharing)
+You can download the pretrained model weights from here: [Download pretrained weights](https://drive.google.com/file/d/14PvBIE4N53O7fyAwLrcyNabf8i94iqwT/view?usp=sharing).
 Or you can train your own model using the description below.
 
 ## Set path variables
