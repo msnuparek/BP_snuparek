@@ -7,10 +7,10 @@ Or you can train your own model using the description below.
 
 Set paths to DICOM file and model weights at the beginning of the script
 
-''' bash
+``` bash
 dicom_path = 'path_to_dicom_file'
 model_path = 'path_to_model_weights'
-'''
+```
 
 # Training Swin-UNETr
 For further details visit original:
