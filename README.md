@@ -23,8 +23,6 @@ output_path = 'path_to_output_file'
 Now you are ready to run your own prediction!
 
 # Training Swin-UNETr
-For further details visit original:
-[Repository](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BRATS21)
 
 To run the training navigate to the models/SwinUNETr directory.
 
@@ -57,3 +55,5 @@ the model path using `pretrained_dir` and model  name using `--pretrained_model_
 python main.py --json_list=<json-path> --data_dir=<data-path> --val_every=5 --noamp --pretrained_model_name=<model-name> \
 --pretrained_dir=<model-dir> --fold=1 --roi_x=128 --roi_y=128 --roi_z=128  --in_channels=4 --spatial_dims=3 --use_checkpoint --feature_size=48
 ```
+For further details visit original:
+[Repository](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BRATS21)
