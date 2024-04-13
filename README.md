@@ -16,6 +16,8 @@ model_path = 'path_to_model_weights'
 For further details visit original:
 [Repository](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BRATS21)
 
+To run the training navigate to the models/SwinUNETr directory.
+
 A Swin UNETR network with standard hyper-parameters for brain tumor semantic segmentation (BraTS dataset) is be defined as:
 
 ``` bash
