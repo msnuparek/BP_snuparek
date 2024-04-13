@@ -29,25 +29,6 @@ model = SwinUNETR(img_size=(128,128,128),
                   )
 ```
 
-
-Using the default values for hyper-parameters, the following command can be used to initiate training using PyTorch native AMP package:
-``` bash
-python main.py
---feature_size=48
---batch_size=1
---logdir=unetr_test_dir
---fold=0
---optim_lr=1e-4
---lrschedule=warmup_cosine
---infer_overlap=0.5
---save_checkpoint
---val_every=10
---json_list='./jsons/brats21_folds.json'
---data_dir=/brats2021/
---use_checkpoint
---noamp
-```
-
 ## Training from scratch on single GPU with gradient check-pointing and without AMP
 
 To train a `Swin UNETR` from scratch on a single GPU with gradient check-pointing and without AMP:
