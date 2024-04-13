@@ -2,15 +2,25 @@
 This repository contains the code acompanying my bachelors thesis. It contains the inference script and guide how to train your own models to recreate the results of my testing. 
 
 # Running Inference script
-To run the inference script on a DICOM scan create a virtual environment and install the requirements in requirements.txt. You can download the pretrained model weights from here: [Download pretrained weights](https://drive.google.com/file/d/14PvBIE4N53O7fyAwLrcyNabf8i94iqwT/view?usp=sharing)
+
+## Create environment and install dependencies
+To run the inference script on a DICOM scan create a virtual environment and install the requirements in requirements.txt. 
+
+## Train your model or download pretrained
+You can download the pretrained model weights from here: [Download pretrained weights](https://drive.google.com/file/d/14PvBIE4N53O7fyAwLrcyNabf8i94iqwT/view?usp=sharing)
 Or you can train your own model using the description below.
 
-Set paths to DICOM file and model weights at the beginning of the script
+## Set path variables
+Set paths to DICOM file, model weights and output file at the beginning of the script
 
 ``` bash
 dicom_path = 'path_to_dicom_file'
 model_path = 'path_to_model_weights'
+output_path = 'path_to_output_file'
 ```
+## Run the script
+
+Now you are ready to run your own prediction!
 
 # Training Swin-UNETr
 For further details visit original:
